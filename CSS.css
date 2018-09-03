@@ -1,0 +1,113 @@
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+ 
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a:hover {
+    text-decoration: none;
+    color: #222;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 600px;
+    height: 400px;
+    overflow: scroll;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.video-section .pattern-overlay {
+    background-color: rgba(71, 71, 71, 0.59);
+    padding: 110px 0 32px;
+    min-height: 439px; 
+    /* Incase of overlay problems just increase the min-height*/
+    }
+    .video-section h1, .video-section h3{
+    text-align:center;
+    color:#fff;
+    }
+    .video-section h1{
+    font-size:110px;
+    font-family: 'Buenard', serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: 40px auto 0px;
+    text-shadow: 1px 1px 1px #000;
+    -webkit-text-shadow: 1px 1px 1px #000;
+    -moz-text-shadow: 1px 1px 1px #000;
+    }
+    .video-section h3{
+    font-size: 25px;
+    font-weight:lighter;
+    margin: 0px auto 15px;
+    }
+    .video-section .buttonBar{display:none;}
+    .player {font-size: 1px;}
+
+    .buttons {
+        position: absolute;
+        display: grid;
+    }
+
+    .buttons .dropbtn {
+       
+        margin: auto;
+    
+}
+.caroussa{
+    background-image: url('./res/car.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height:450px ;
+}    
+#prop{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue
+}
+.wass{
+    font-size: 25;
+    font-family: 'Pacifico', cursive;
+
+
+}
